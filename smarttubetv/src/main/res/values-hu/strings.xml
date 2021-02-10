@@ -54,59 +54,84 @@
          van a királyság békéjének és saját boldogságának kulcsa.. 
     </string>
 
-    <!-- Strings related to onboarding -->
-    <string name="onboarding_title_welcome">Bienvenue dans l\'exemple Leanback</string>
-    <string name="onboarding_title_design">Concu pour Android TV</string>
-    <string name="onboarding_title_simple">Simple à inclure</string>
-    <string name="onboarding_title_project">Consultez l\'/exemple de projet</string>
+    <!-- Strings related to guided sequence activity -->
+    <string name="guidedstep_first_title">Guided Step First Page</string>
+    <string name="guidedstep_first_description">First step of guided sequence</string>
+    <string name="guidedstep_first_breadcrumb">Guided Steps: 1</string>
+    <string name="guidedstep_second_title">Guided Step Second Page</string>
+    <string name="guidedstep_second_description">Showcasing different action configurations</string>
+    <string name="guidedstep_second_breadcrumb">Guided Steps: 2</string>
+    <string name="guidedstep_third_title">Guided Step Third Page</string>
+    <string name="guidedstep_third_breadcrumb">Guided Steps: 3</string>
+    <string name="guidedstep_third_command">You chose: </string>
+    <string name="guidedstep_action_description">The description can be quite long as well.
+        Just be sure to set multilineDescription to true in the GuidedAction.
+    </string>
+    <string name="guidedstep_action_title">
+        Note that Guided Actions can have titles that are quite long.
+    </string>
+    <string name="guidedstep_continue">Folytatás</string>
+    <string name="guidedstep_letsdoit">Csináljuk</string>
+    <string name="guidedstep_nevermind">Nem fontos</string>
+    <string name="guidedstep_cancel">Törlés</string>
+    <string name="header_icon">Fejléc ikon</string>
 
-    <string name="onboarding_description_welcome">Il s\'/agit du fragment d\'/intégration, qui s\'/exécute lorsque l\'/utilisateur ouvre l\'/application pour la premiére fois</string>
-    <string name="onboarding_description_design">L\'/exemple Leanback montre comment concevoir rapidement des applications conçues pour une interface utilisateur de 10-foot</string>
-    <string name="onboarding_description_simple">Vous pouvez inclure la bibliothéque Leanback via gradle dans vos propres applications</string>
-    <string name="onboarding_description_project">Recherchez-vous des conseils? Cet exemple est disponible sur GitHub afin que vous puissiez voir comment nous avons construit cela.</string>
-    <string name="pref_title_settings">Paramétres de l\'application</string>
-    <string name="pref_title_recommendations">Recommandations</string>
-    <string name="pref_key_recommendations">préférences de recommandations</string>
-    <string name="pref_key_screen_general">paramétres généraux</string>
-    <string name="pref_title_screen_general">Réglages généraux</string>
-    <string name="pref_key_screen_signin">se connecter</string>
-    <string name="pref_title_screen_signin">Veuillez vous connecter</string>
-    <string name="pref_title_login_description">Entrez votre nom d\'/utilisateur et votre mot de passe</string>
-    <string name="pref_title_username">Nom d\'utilisateur</string>
-    <string name="pref_title_password">Mot de passe</string>
-    <string name="pref_key_login">préférences de connexion</string>
-    <string name="pref_title_login">S\'identifier</string>
-    <string name="playback_tag">ETIQUETTE LECTURE</string>
-    <string name="no_title">Pas de titre</string>
-    
-        <!-- Vineyard -->
-    <string name="title_oops">Oups</string>
-    <string name="title_no_videos">Aucune vidéos</string>
-    <string name="message_try_again">Réessayer?</string>
-    <string name="message_check_again">Revérifier?</string>
-    <string name="text_search_results">Résultats de recherche pour %s</string>
-    <string name="text_post_results_title">Messages pour %s</string>
-    <string name="text_no_results">Aucun résultat</string>
-    <string name="error_message_network_needed">Oups, vous avez besoin d’une connexion réseau!</string>
+    <string name="mobile_welcome_title">Üdvözöljük a Leanback Sample-ban</string>
+    <string name="mobile_welcome_description">Üdvözöljük a Leanback Sample alkalmazásban! Próbálja meg ezt megnyitni egy Android TV-n a nagyszerű élmény érdekében.</string>
+
+    <!-- Strings related to onboarding -->
+    <string name="onboarding_title_welcome">Üdvözöljük a Leanback Sample-ban</</string>
+    <string name="onboarding_title_design">Android TV -re tervezve</string>
+    <string name="onboarding_title_simple">Egyszerű használat</string>
+    <string name="onboarding_title_project">Nézd meg a  Sample Projectet</string>
+
+    <string name="onboarding_description_welcome">Ez az Onboarding Fragment, amely akkor fut, amikor a felhasználó először megnyitja az alkalmazást</string>
+    <string name="onboarding_description_design">A Leanback Sample bemutatja, hogyan lehet gyorsan megtervezni a felhasználói felületre tervezett alkalmazásokat</string>
+    <string name="onboarding_description_simple">Felveheti a Leanback könyvtárat a saját alkalmazásaiba</string>
+    <string name="onboarding_description_project">Útmutatást keres? Ez a minta elérhető a GitHubon, így láthatja, hogyan építettük ezt fel.</string>
+    <string name="pref_title_settings">App Beállítások</string>
+    <string name="pref_title_recommendations">Ajánlások</string>
+    <string name="pref_key_recommendations">pref_recommendations</string>
+    <string name="pref_key_screen_general">general_settings</string>
+    <string name="pref_title_screen_general">Általános beállítások</string>
+    <string name="pref_key_screen_signin">Bejelentkezés</string>
+    <string name="pref_title_screen_signin">Kérlek jelentkezz be</string>
+    <string name="pref_title_login_description">Írd be a felhasználónevedet és a jelszavadat./string>
+    <string name="pref_title_username">Felhasználónév</string>
+    <string name="pref_title_password">Jelszó</string>
+    <string name="pref_key_login">pref_login</string>
+    <string name="pref_title_login">Belépés</string>
+    <string name="playback_tag">PLAYBACK_TAG</string>
+    <string name="no_title">Nincs cím</string>
+
+    <!-- Vineyard -->
+    <string name="title_oops">Hoppá</string>
+    <string name="title_no_videos">Nincsenek videók</string>
+    <string name="message_try_again">Újrapróbálod?</string>
+    <string name="message_check_again">Megnézed újra?</string>
+    <string name="text_search_results">Keresési találat %ok</string>
+    <string name="text_post_results_title">Bejegyzés %ek</string>
+    <string name="text_no_results">Nincs találat</string>
+    <string name="error_message_network_needed">Hoppá, ehhez hálózati kapcsolatra van szüksége!</string>
 
     <!--  NEW ITEMS  -->
-    <string name="signin_view_title">Le code utilisateur est en cours de chargement…</string>
-    <string name="signin_view_description">Pour vous connecter, entrez ce code dans la page %s</string>
-    <string name="signin_view_action_text">Terminé</string>
-    <string name="action_subscribe_off">Se désabonner</string>
-    <string name="action_subscribe_on">S\'abonner</string>
-    <string name="action_channel">Chaine ouverte</string>
-    <string name="action_playlist_add">Ajouter à la bibliothéque</string>
-    <string name="action_video_stats">Statistiques vidéo</string>
-    <string name="require_checked">Exige \"%s\"</string>
-    <string name="msg_press_again_to_exit">Appuyez à nouveau pour sortir</string>
-    <string name="player_remaining_time">Fini dans: %s</string>
-    <string name="badge_new_content">NOUVEAU CONTENU</string>
-    <string name="badge_live">EN DIRECT</string>
-    <string name="action_pip">Démarrer PIP</string>
-    <string name="add_device_view_description">Pour lier l’appareil, entrez ce code sur l\'application YouTube de votre téléphone dans la section Paramètres</string>
-    <string name="playback_controls_repeat_pause">Répéter la pause</string>
-    <string name="playback_controls_repeat_list">Répéter la liste</string>
+    <string name="signin_view_title">Felhasznói kód betöltése…</string>
+    <string name="signin_view_description">A bejelentkezéshez írja be ezt a kódot az oldalon %s</string>
+    <string name="signin_view_action_text">Kész</string>
+    <string name="action_subscribe_off">Feliratkozás kikapcsolva</string>
+    <string name="action_subscribe_on">Feliratkozás bekapcsolva</string>
+    <string name="action_channel">Csatornák nyitása</string>
+    <string name="action_playlist_add">Hozzáadás a lejátszási listához</string>
+    <string name="action_video_stats">Video statisztika</string>
+    <string name="require_checked">Kell \"%enek\"</string>
+    <string name="msg_press_again_to_exit">Nyomd újra a kilépéshez</string>
+    <string name="player_remaining_time">Hátralevő: %k</string>
+    <string name="badge_new_content">ÚJ TARTALOM</string>
+    <string name="badge_live">ÉLŐ</string>
+    <string name="action_pip">PIP INDÍTÁSA</string>
+    <string name="add_device_view_description">Az eszköz összekapcsolásához írja be ezt a kódot telefonja YouTube alkalmazásában a Beállítások / Nézés a tévén szakaszban</string>
+    <string name="playback_controls_repeat_pause">Szünet</string>
+    <string name="playback_controls_repeat_list">Lista ismétlése</string>
 </resources>
 
     © 2021 GitHub, Inc.
