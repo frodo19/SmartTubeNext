@@ -16,7 +16,7 @@
     <string name="rent_2">$1.99 tól</string>
     <string name="buy_1">Megvásárlás</string>
     <string name="buy_2">akár\$9.99</string>
-    <string name="queue_name">A sor olvasása</string>
+    <string name="queue_name">Várólista lejátszása</string>
 
     <string name="search_results">Keresés eredménye \'%1$i\'</string>
     <string name="no_search_results">Nincs találat a következőre: \'%1$s\'</string>
@@ -133,18 +133,4 @@
     <string name="playback_controls_repeat_pause">Szünet</string>
     <string name="playback_controls_repeat_list">Lista ismétlése</string>
 </resources>
-
-    © 2021 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
+        
